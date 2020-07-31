@@ -1,0 +1,255 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+header .contenedor {
+ display: flex;
+ justify-content: space-between;
+ 
+}
+
+header .lista-menu {
+display: flex;
+
+}
+
+.titulo{
+   text-align: center;
+    margin-top: 165px;
+}
+h1{
+    font-size: 60px;
+    margin: 0;
+}
+h2{
+    font-size: 20px;
+    color: white;
+}
+
+header ul li {
+    list-style: none;
+    margin-right: 15px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.contenedor {
+max-width: 1280px;
+width: 89%;
+margin: auto;
+}
+header {
+    background: url(imagenes/sanagustin.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+p {
+    font-size: 25px;
+}
+
+/* Arranca nueva seccion: Sobre nosotros */
+
+h3 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: normal;
+    text-decoration-line: underline;
+}
+
+.contenedor-sobrenosotros {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+.contenedor-textosobrenosotros{
+    width: 42%;
+}
+.contenedor-textosobrenosotros p {
+    font-size: 20px;
+
+}
+.contenedor-servicios {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.servicio {
+
+    width: 25%;
+    padding: 38px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.violeta {
+ 
+    background: #5055df;
+}
+.celeste {
+    background: #40a8f9;
+}
+.servicio h4 {
+
+    font-size: 30px;
+    margin: 0;
+    
+}
+.servicio img {
+
+    float: right;
+}
+.servicio p {
+    font-size: 16px;
+    height: 200px;
+}
+span {
+  font-size: 80px;
+  color: blue
+}
+
+.owl-nav {
+    text-align: center;
+}
+
+.contenedor-porque {
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.contenedor-porque h4 {
+
+    margin: 0;
+    font-size: 20px;
+}
+.contenedor-porque p {
+    font-size: 16px;
+    line-height: 26px;
+}
+.porque-singular {
+   width: 30%;
+
+}
+#blog {
+    background: #f9fafc;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contenedor-publicaciones {
+    display: flex;
+    justify-content: space-around;
+}
+.publicacion {
+    width: 30%;
+    box-shadow: 10px -13px 14px #ccc;
+    padding-bottom: 20px;
+}
+
+#blog img {
+    width: 100%;
+}
+#blog h4 {
+    font-size: 23px;
+    margin: 0;
+    padding: 20px;
+}
+#blog p {
+    color: #5A6169;
+    line-height: 24px;
+    font-size: 16px;
+    padding: 10px 20px 20px 20px;
+    margin: 0;
+}
+#blog a {
+    display: inline-block;
+    margin-left: 20px;
+    color: #fff;
+    background: lightseagreen;
+    padding: 10px 35px 10px 35px;
+}
+#blog a:hover {
+    color: black;
+}
+#que-esperas {
+    background: linear-gradient(rgba(84,93,220,.94),rgba(96,171,245,.9));
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+#que-esperas h3 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20Px;
+    text-decoration: none;
+}
+#que-esperas a {
+    padding: 10px 35px 10px 35px;
+    color: #fff;
+    background: skyblue;
+    
+}
+#que-esperas a:hover {
+     color: black
+}
+#wsp a {
+    background: none;
+    position: fixed;
+    top: 85%;
+    right: 1%;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media(max-width: 800px) {
+    nav {
+        position: absolute;
+        top: 70px;
+        left: -20px;
+        display: none;
+
+    }
+    .menu-icon {
+        display: block;
+        
+    }
+    .titulo {
+        margin-top: 145px;
+    }
+    .contenedor-sobrenosotros {
+        flex-direction: column;
+    }
+    .contenedor-textosobrenosotros {
+        width: 90%;
+        text-align: center;
+    }
+    .contenedor-servicios {
+        flex-direction: column;
+    }
+    .servicio {
+        width: 72%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .contenedor-porque {
+        flex-direction: column;
+        width: 326%;
+    }
+    .contenedor-publicaciones {
+        flex-direction: column;
+    }
+    .publicacion {
+        width: 95%;
+        margin: auto;
+    }
+}

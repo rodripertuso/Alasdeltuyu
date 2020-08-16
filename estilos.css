@@ -15,18 +15,6 @@ display: flex;
 
 }
 
-.titulo{
-   text-align: center;
-    margin-top: 165px;
-}
-h1{
-    font-size: 60px;
-    margin: 0;
-}
-h2{
-    font-size: 20px;
-    color: white;
-}
 
 header ul li {
     list-style: none;
@@ -44,7 +32,7 @@ width: 89%;
 margin: auto;
 }
 header {
-    background: url(imagenes/sanagustin.jpg);
+    background: url(imagenes/sanagustin.png);
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -100,7 +88,7 @@ h3 {
 }
 .servicio h4 {
 
-    font-size: 30px;
+    font-size: 26px;
     margin: 0;
     
 }
@@ -200,17 +188,50 @@ span {
 #que-esperas a:hover {
      color: black
 }
+#que-esperas p {
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: -1%;
+}
 #wsp a {
     background: none;
     position: fixed;
     top: 85%;
     right: 1%;
 }
+#ig a {
+    background: none;
+    position: fixed;
+    top: 74%;
+    right: 1%;
+}
+#fb a {
+    background: none;
+    position: fixed;
+    top: 63%;
+    right: 1%;
+}
+
+
 
 .menu-icon {
     display: none;
+ }
+.icono {
+    display: block;
+}
+.ocultar {
+    display: none;
 }
 
+.do-icono {
+    display: none;
+}
+.oculto1 {
+    display: none;
+}
+
+    
 @media(max-width: 800px) {
     nav {
         position: absolute;

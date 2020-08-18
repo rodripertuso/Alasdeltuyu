@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-
+    <!-- Encabezado de la pagina -->  <!---->
 <head>
  <link rel="stylesheet" href="estilos.css">
  <meta charset="utf-8">
@@ -9,7 +9,7 @@
  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
  <meta name="viewport" content="width=device-width, user-scalable=no">
 </head>
-
+                        <!-- Cuerpo de la pagina -->
 <body>
  <header>
      <div class="menu">
@@ -18,11 +18,11 @@
             <img class="menu-icon" src="imagenes/menu.png">
             <nav>
                 <ul class="lista-menu">
-                   <li><a href="">Sobre Nosotros</a></li> 
-                   <li><a href="">Nuestros Viajes</a></li>
-                   <li><a href="https://www.facebook.com/alasdeltuyuviajesyturismo" target="_blank">Contactarnos</a></li>
+                   <li><a href="#sobre-nosotros">Sobre Nosotros</a></li> 
+                   <li><a href="#nuestros-viajes">Nuestros Viajes</a></li>
+                   <li><a href="#que-esperas">Contactarnos</a></li>
                    <li><a href="">Reservas Online</a></li>
-                   <li><a href="">Blogs</a></li>
+                   <li><a href="#blog">Blogs</a></li>
                 </ul>
             </nav> 
          </div>
@@ -34,7 +34,9 @@
 
  </header>
 
- <section>
+                 <!-- Arranca nueva seccion: Sobre nosotros -->
+
+ <section id="sobre-nosotros">
     <h3>Sobre Nosotros</h3>
     <div class="contenedor-sobrenosotros">
         <img src="imagenes/sobre nosotros.png" alt="Alas del tuyu" title="Alas del tuyu">
@@ -43,7 +45,8 @@
         </div>        
     </div>
  </section>
-<section>
+<section id="servicios">
+                         <!-- Arranca nueva seccion: Servicios -->
 <div class="contenedor">
 <h3> servicios </h3>
 <div class="contenedor-servicios">     
@@ -89,7 +92,8 @@
   </div>
 </div>
 </section>
-<section>
+<section id="nuestros-viajes">
+                     <!-- Arranca nueva seccion: Nuestros viajes -->
    <div class="contenedor">
        <h3> Nuestros Viajes</h3>
     <div class="owl-carousel">
@@ -112,6 +116,7 @@
 </section>
 
 <section>
+                 <!-- Arranca nueva seccion: porque viajar con nosotros -->
 <div class="contenedor">
  <h3>¿Porque viajar con nosotros?</h3>
  <div class="contenedor-porque">
@@ -141,6 +146,7 @@
 </section>
 
 <section id="blog">
+                        <!-- Arranca nueva seccion: Blog -->
    <div class="contenedor">
     <h3>Blog</h3>
     <div class="contenedor-publicaciones">
@@ -163,6 +169,7 @@
    </div>
 
 </section>
+                         <!-- Arranca nueva seccion: que esperas -->
 <section id="que-esperas">
     <div class="contenedor">
         <h3>¿Que esperas para viajar con nosotros?</h3>
@@ -175,7 +182,8 @@
 
     </div>
 </section>
-<section id="wsp">
+                         <!-- Arranca nueva seccion: iconos flotantes -->
+<section id="wsp">   
 <a href="https://wa.me/2216385542">
     <img src="imagenes/wsp.png">
 </a>
@@ -192,7 +200,7 @@
         <img src="imagenes/face.png">
     </a>
 </section>
-
+                 <!-- Arranca nueva seccion: Carrusel de nuestros viajes -->
 <script src="owlcarousel/jquery.min.js"></script>
 <script src="owlcarousel/owl.carousel.min.js"></script>
 <script>
@@ -212,7 +220,7 @@
         }
     }
 })
-
+                /* Arranca nueva seccion: Funcion de click */
 $('.menu-icon').click(function(){
 
     $('header nav ').slideToggle();

@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -14,7 +17,6 @@ header .lista-menu {
 display: flex;
 
 }
-
 
 header ul li {
     list-style: none;
@@ -70,6 +72,8 @@ h3 {
     justify-content: space-around;
 }
 
+/* Arranca nueva seccion: Servicios */
+
 .servicio {
 
     width: 25%;
@@ -105,9 +109,13 @@ span {
   color: blue
 }
 
+/* Arranca nueva seccion: navegador */
+
 .owl-nav {
     text-align: center;
 }
+
+/* Arranca nueva seccion: Porque viajar con nosotros */
 
 .contenedor-porque {
 
@@ -128,6 +136,9 @@ span {
    width: 30%;
 
 }
+
+/* Arranca nueva seccion: Blog */
+
 #blog {
     background: #f9fafc;
     padding-top: 50px;
@@ -168,6 +179,9 @@ span {
 #blog a:hover {
     color: black;
 }
+
+/* Arranca nueva seccion: Que esperas */
+
 #que-esperas {
     background: linear-gradient(rgba(84,93,220,.94),rgba(96,171,245,.9));
     text-align: center;
@@ -193,6 +207,9 @@ span {
     text-align: left;
     margin-bottom: -1%;
 }
+
+/* Arranca nueva seccion: Iconos flotantes */
+
 #wsp a {
     background: none;
     position: fixed;
@@ -212,7 +229,7 @@ span {
     right: 1%;
 }
 
-
+/* Arranca nueva seccion: opciones de icono(Pestañas) */
 
 .menu-icon {
     display: none;
@@ -231,7 +248,9 @@ span {
     display: none;
 }
 
-    
+/* Arranca nueva seccion: Web tamaño celular/tablet */
+
+
 @media(max-width: 800px) {
     nav {
         position: absolute;
@@ -272,5 +291,11 @@ span {
     .publicacion {
         width: 95%;
         margin: auto;
+    }
+    header {
+        height: 60vh;
+    }
+    #que-esperas p {
+        font-size: 12px;
     }
 }
